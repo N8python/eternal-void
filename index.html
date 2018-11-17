@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Eternal Void</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <h1 class="hVoid">Eternal Void</h1>
+  <p class="pVoid">You are delievering a shipment to a planet in need... but then you are blown off course. <br>
+    Now, trapped in an eternal void,
+    you must survive by gathering fuel and dodging meteors. <br> Use left and right arrow keys to move. Shoot with the up arrow key.</p>
+  <canvas class="vCanvas" id="display" width="800px" height="400px" onmousedown="restart()"></canvas>
+  <canvas class="vCanvas" id="cp" width=400px height="200px" onmousedown="restart()"></canvas>
+  <button class="vButton" id="startButton" onclick="gameLoop()">Start</button>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="main.js"></script>
+</body>
+
+</html>
